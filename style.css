@@ -18,7 +18,7 @@
 }
 body{
     background: hsl(210, 46%, 95%);
-    padding: 150px;
+    padding: 110px;
     font-family: 'Barlow Semi Condensed', sans-serif;
     position: relative;
     width: 100%;
@@ -57,33 +57,51 @@ img{
     border-radius: 10px;
 }
 .grid-item1{
+    grid-row-start: 1;
+    grid-row-end: 1;
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
     background: hsl(263, 55%, 52%);
+    position: relative;
 }
 .grid-item1 .img{
     border: 2px solid hsl(0deg 0% 100% / 50%);
 }
+.quote{
+    background-image: url("./images/bg-pattern-quotation.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 20%;
+    top: 0%;
+    width: 104px;
+    height: 102px;
+    opacity: 50%;
+}
 .grid-item2{
-    grid-column-start: 3;
-    grid-column-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 4;
     background: hsl(217, 19%, 35%);
 }
 .grid-item3{
     grid-row-start: 1;
-    grid-column-end:5 ;
     grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end:5 ;
     background: hsl(0, 0%, 100%);
 }
 .grid-item4{
     grid-row-start: 2;
-    grid-column-end: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
     background: hsl(0, 0%, 100%);
 }
 .grid-item5{
     grid-row-start: 2;
+    grid-row-end: 2;
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 5;
     background: hsl(219, 29%, 14%);
 }
 .grid-item5 .img{
@@ -100,6 +118,7 @@ img{
     padding-bottom: 10px;
     font-size: 1rem;
     font-weight: 600;
+    z-index: 1;
 }
 .w-sub{
     color: white;
@@ -127,6 +146,7 @@ img{
     body{
         width: 100%;
         position: relative;
+        padding: 30px;
     }
     .attribution{
         position: absolute;
