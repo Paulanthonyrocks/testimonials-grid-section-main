@@ -55,6 +55,7 @@ img{
 .grid-container > div {
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 14px 14px 20px 0px #c3bebe45;
 }
 .grid-item1{
     grid-row-start: 1;
