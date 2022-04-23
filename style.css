@@ -18,10 +18,11 @@
 }
 body{
     background: hsl(210, 46%, 95%);
-    padding: 30px;
+    padding: 150px;
     font-family: 'Barlow Semi Condensed', sans-serif;
     position: relative;
     width: 100%;
+    height: auto;
 }
 img{
     border-radius: 50%;
