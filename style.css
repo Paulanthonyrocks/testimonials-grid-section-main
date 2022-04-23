@@ -118,7 +118,6 @@ img{
     padding-bottom: 10px;
     font-size: 1rem;
     font-weight: 600;
-    z-index: 1;
 }
 .w-sub{
     color: white;
@@ -142,6 +141,7 @@ img{
     font-weight: 500;
 }
 
+/* SCREEN RESPONSIVE MOBILE */
 @media screen and (max-width:375px) {
     body{
         width: 100%;
